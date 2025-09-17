@@ -57,11 +57,11 @@ springwolf:
   enabled: true
   docket:
     info:
-      title: 'Order Processing API'
+      title: 'Loan Processing API'
       version: 1.0.0
-      description: 'Order Processing API Demo.'
+      description: 'Loan Processing API Demo With Kafka.'
     # Base package to scan for @AsyncPublisher and @KafkaListener annotations
-    base-package: com.spring.kafka
+    base-package: com.sg.kafka
     servers:
       # You can name the server anything you like (e.g., 'kafka-server')
       kafka-server:
